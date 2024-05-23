@@ -141,3 +141,36 @@ sr.reveal(`.home__name, .home__info,
             .about__container .section__title-1, .about__info,
             .contact__social, .contact__data`, {origin: 'left'})
 sr.reveal(`.services__card, .projects__card`, {interval: 100})
+
+
+
+// main.js
+document.addEventListener('DOMContentLoaded', () => {
+    const projectsContainer = document.querySelector('.projects__container');
+
+    projects.forEach(project => {
+        const projectCard = document.createElement('article');
+        projectCard.classList.add('projects__card');
+
+        projectCard.innerHTML = `
+            <div class="projects__image">
+                <img src="${project.image}" alt="${project.alt}" class="projects__img">
+                <a href="${project.link}" class="projects__button button" target="_blank">
+                    <i class="ri-arrow-right-up-line"></i>
+                </a>
+            </div>
+            <div class="projects__content">
+                <h3 class="projects__subtitle">${project.subtitle}</h3>
+                <h2 class="projects__title">${project.title}</h2>
+                <p class="projects__description">${project.description}</p>
+            </div>
+            <div class="projects__buttons">
+                <a href="${project.link}" target="_blank" class="projects__link">
+                    <i class="ri-github-line"></i> View
+                </a>
+            </div>
+        `;
+
+        projectsContainer.appendChild(projectCard);
+    });
+});
