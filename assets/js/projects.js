@@ -40,6 +40,14 @@ const projects = [
         description: 'This is a creative scroll video animation landing page.',
         link: 'https://advanced-timeline-design.vercel.app/'
     },
+    {
+        image: 'assets/img/Restaurant-Preview.png',
+        alt: 'Restaurant Website',
+        subtitle: 'Website',
+        title: 'Restaurant Website',
+        description: 'This is a restaurant website.',
+        link: 'https://restaurant-website-indol-kappa.vercel.app/'
+    },
 
     // Add more projects here
 ];
