@@ -25,12 +25,12 @@ const projects = [
         link: 'https://marketing-portfolio-five.vercel.app/'
     },
     {
-        image: 'assets/img/VideoScroll-Preview.png',
-        alt: 'VideoScroll Animation',
-        subtitle: 'Landing Page',
-        title: 'Video Scroll Animation Page',
-        description: 'This is a creative scroll video animation landing page.',
-        link: 'https://video-scroll-animation.vercel.app/'
+        image: 'assets/img/Expense-Preview.png',
+        alt: 'Expense Manager App',
+        subtitle: 'Web App',
+        title: 'Expense Manager App',
+        description: 'This is a fullstack Expense Tracker App.',
+        link: 'https://expense-tracker-app-topaz.vercel.app/'
     },
     {
         image: 'assets/img/Timeline-Preview.png',
