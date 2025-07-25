@@ -16,6 +16,23 @@ const projects = [
         description: 'This is a fullstack Expense Tracker App.',
         link: 'https://expense-tracker-app-topaz.vercel.app/'
     },
+    {
+        image: 'assets/img/API.png',
+        alt: 'Expense Tracker API',
+        subtitle: 'API',
+        title: "Expense Tracker API",
+        description: "A FastAPI-powered backend for tracking personal expenses.",
+        link: "https://github.com/king-luvaha/expense-tracker-api"
+    },
+    {
+        image: 'assets/img/CLI.png',
+        alt: 'To-Do CLI App',
+        subtitle: 'CLI App',
+        title: "To-Do CLI App",
+        description: "A command-line task manager with CRUD features in Python.",
+        link: "https://github.com/king-luvaha/todo-cli"
+    }
+
 
     // Add more projects here
 ];
