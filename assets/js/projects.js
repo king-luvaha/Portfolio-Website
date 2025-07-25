@@ -9,14 +9,6 @@ const projects = [
         link: 'https://olympics-website.vercel.app/'
     },
     {
-        image: 'assets/img/Expense-Preview.png',
-        alt: 'Expense Manager App',
-        subtitle: 'Web App',
-        title: 'Expense Manager App',
-        description: 'This is a fullstack Expense Tracker App.',
-        link: 'https://expense-tracker-app-topaz.vercel.app/'
-    },
-    {
         image: 'assets/img/API.png',
         alt: 'Expense Tracker API',
         subtitle: 'API',
