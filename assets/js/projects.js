@@ -9,7 +9,7 @@ const projects = [
         link: 'https://olympics-website.vercel.app/'
     },
     {
-        image: 'assets/img/API.png',
+        image: 'assets/img/api-format.jpg',
         alt: 'Expense Tracker API',
         subtitle: 'API',
         title: "Expense Tracker API",
